@@ -17,12 +17,11 @@ Mi decision la tome con una tabla que decia lo que me podia ayudar a decidir mej
 
 Finalmente me quede con Apple por su disenio simple y que no tenia suficiente tiempo para completarla.
 
-![Alt Text](https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif)
-
-
 ![Alt Text][AppleLogo]
 
 [AppleLogo]: https://github.com/GuilleLink/ProyectoWeb/AppleLogo.png "Apple"
+
+![Alt Text](https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif)
 
 Lo peor fue pensar que aprender a hacer un README iba a ser complicado pero no...
 
@@ -41,3 +40,7 @@ Lo mejor es enfrentar el problema y, aunque me tomó muchas horas y la ayuda de 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
 [Meow...](http://jsforcats.com/)
+
+Dejo el git del crack de Dennis por si a alguien le interesa, es un crack en web.
+
+[Denn1s](https://github.com/denn1s)
