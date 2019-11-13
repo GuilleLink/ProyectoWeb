@@ -1,8 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Header from "./Header.js";
 
 const App = () => {
-    return <div>Hello React, Webpack 4 & Babel 7!</div>
+    return <div><Header></Header></div>
 };
+
+
 
 ReactDOM.render(<App />, document.querySelector("#root"));
