@@ -17,6 +17,22 @@ Mi decision la tome con una tabla que decia lo que me podia ayudar a decidir mej
 
 Finalmente me quede con Apple por su disenio simple y que no tenia suficiente tiempo para completarla.
 
+Para esto voy a emplear React, Babel y Webpack. 
+
+Webpack fue empleado con el fin de conseguir una actualizacion instantanea al correr el programa.
+
+Babel es una especie de transcriptor para los diferentes web browsers, conviertiendo diferentes versiones de javascript a javascript 6.
+
+React fue empleado ya que me gusto mucho luego de agarrarle un poco la onda tras hacer la calculadora:
+
+[Calculadora React](https://github.com/GuilleLink/Lab08)
+
+Y la memoria:
+
+[Calculadora React](https://github.com/GuilleLink/Laboratorio6Web)
+
+Luego de una dura pelea al fin me gustó trabajarlo.
+
 ![Alt Text][AppleLogo]
 
 [AppleLogo]: https://github.com/GuilleLink/ProyectoWeb/AppleLogo.png "Apple"
