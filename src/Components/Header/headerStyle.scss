@@ -1,0 +1,38 @@
+$apple-font-color: 	lightgray;
+
+.top-page{
+    position: relative;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10%; 
+    width: 100%;
+    background-color: 	#4d4d4d	;
+    margin: 0px;
+}
+
+.apple-logo{
+    color: $apple-font-color;
+    margin: auto;
+    //background-image: url(ac-globalnav-dist/images/globalnav/search/image_large.svg);
+}
+
+.search-logo{
+
+}
+
+.shop-logo{
+
+}
+
+.header-text{
+    position: relative;
+    align-content: center;
+    margin: auto;
+    color: $apple-font-color;
+}
+
+.sub-header{
+    align-content: center;
+    color: black;
+    position: relative;
+    background-color: 	#eeeeee;
+}
