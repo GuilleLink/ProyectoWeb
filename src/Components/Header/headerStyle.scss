@@ -4,13 +4,14 @@ $apple-font: '.SFNSDisplay-Regular', sans-serif;
 .top-page{
     position: relative;
     display: grid;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 0;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10%; 
     width: 100%;
+    height: 44px;
     background-color: 	#020202da;
     margin: 0px;
-    justify-content: center;
+    justify-content: space-evenly;
     align-content: center;
 }
 
@@ -39,9 +40,25 @@ $apple-font: '.SFNSDisplay-Regular', sans-serif;
 }
 
 .sub-header{
-    align-content: center;
-    text-align: center;
-    color: black;
     position: relative;
+    display: flex;
+    line-height: 2.6;  
+    color: rgba(24, 24, 24, 0.822);    
     background-color: 	#eeeeee;
+    width: 100%;
+    height: 30px;
+    font-family: $apple-font;
+    font-weight: lighter;
+    font-size: 12px;
+    justify-content: center;
+    align-content: center;
+}
+
+.giftApple{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    margin-top: 35px;
+    margin-bottom: 5px;
 }

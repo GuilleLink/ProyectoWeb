@@ -1,41 +1,49 @@
 $apple-font: '.SFNSDisplay-Regular', sans-serif;
 
 .top-font{
-    font-size: 58px;
+    position: relative;
+    line-height: 1.8;
+    flex-wrap: nowrap;
+    font-size: 56px;
     font-family: $apple-font;
     font-weight: bold;
 }
 
 .mid-font{
+    position: relative;
     font-size: 26px;
     font-family: $apple-font;
 }
 
 .lower-mid-font{
+    position: relative;
     font-size: 17px;
     font-family: $apple-font;
     color: rgba(255, 255, 255, 0.473);
 }
 
 .bottom-font{
+    position: relative;
     font-size: 18px;
     font-family: $apple-font;
     color: rgba(70, 119, 224, 0.753);
 }
 
 
+
 .top-full-card{
-    background-color: rgba(255, 255, 255, 0.89);
     display: grid;
-    grid-template-rows: 20% 10% 8% 10%; 
+    grid-template-rows: 20% 10%; 
     width: 100%;
-    height: 20%;
+    height: 465px;
     padding: 0px;
     border: 0px;
     justify-content: center;
-    align-content: center;
     text-align: center;
-    color: rgba(15, 15, 15, 0.952);
+    background-image: url('./images/top-animated.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 .middle-full-card{
@@ -43,13 +51,17 @@ $apple-font: '.SFNSDisplay-Regular', sans-serif;
     display: grid;
     grid-template-rows: 20% 10% 8% 10%;   
     width: 100%;
-    height: 20%;
+    height: 550px;
     padding: 0px;
     border: 0px;
     justify-content: center;
-    align-content: center;
     text-align: center;
     color: white;
+    background-image: url('./images/mid-phone.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 100%;
+    
 }
 
 .bottom-full-card{
@@ -57,11 +69,15 @@ $apple-font: '.SFNSDisplay-Regular', sans-serif;
     display: grid;
     grid-template-rows: 20% 10% 8% 10%; 
     width: 100%;
-    height: 20%;
+    height: 600px;
     padding: 0px;
     border: 0px;
     justify-content: center;
-    align-content: center;
+    align-content: space-between;
     text-align: center;
     color: rgba(15, 15, 15, 0.952);
+    background-image: url('./images/bottom-phones.jpg');
+    background-size: cover;
+    background-position: center;
+
 }

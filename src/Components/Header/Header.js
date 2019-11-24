@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './headerStyle.scss'
-import AppleLogo from "./AppleLogo.png";
+import AppleLogo from './AppleLogo.png';
 
 class Header extends Component{
     constructor(props){
@@ -10,10 +10,10 @@ class Header extends Component{
 
     render(){
         return(
-            <div>
+            <div>                
                 <div className='top-page'>
                     <div className='apple-logo'>
-                        <img src={AppleLogo}></img>                        
+                        <img src={require('./AppleLogo.png')} width='17px' alt='Apple' />                        
                     </div>
                     <div className='header-text'>
                         Mac
@@ -36,6 +36,9 @@ class Header extends Component{
                 </div>
                 <div className='sub-header'>
                     Free two-day delivery on in-stock items oredered by 5:00 p.m.*
+                </div>
+                <div className='giftApple'>
+                    <img src={require('./appleGift.png')} width='80px' />
                 </div>
             </div>
         )
