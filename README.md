@@ -17,7 +17,7 @@ Mi decision la tome con una tabla que decia lo que me podia ayudar a decidir mej
 
 Finalmente me quede con Apple por su disenio simple y que no tenia suficiente tiempo para completarla.
 
-Para esto voy a emplear React, Babel y Webpack. 
+Para esto voy a emplear Sass, React, Babel y Webpack. 
 
 Webpack fue empleado con el fin de conseguir una actualizacion instantanea al correr el programa.
 
