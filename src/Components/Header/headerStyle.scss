@@ -1,11 +1,14 @@
 $apple-font-color: 	lightgray;
+$apple-font: '.SFNSDisplay-Regular', sans-serif;
 
 .top-page{
     position: relative;
     display: grid;
+    font-size: 13px;
+    font-weight: 0;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10%; 
     width: 100%;
-    background-color: 	#4d4d4d	;
+    background-color: 	#020202da;
     margin: 0px;
 }
 
@@ -28,10 +31,14 @@ $apple-font-color: 	lightgray;
     align-content: center;
     margin: auto;
     color: $apple-font-color;
+    font-weight: lighter;
+    font-family: $apple-font;
+    text-align: center;
 }
 
 .sub-header{
     align-content: center;
+    text-align: center;
     color: black;
     position: relative;
     background-color: 	#eeeeee;

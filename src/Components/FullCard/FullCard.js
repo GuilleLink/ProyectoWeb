@@ -7,23 +7,24 @@ class FullCard extends Component{
     }
 
     render(){
-        const {type, tittle, subtittle, sub_subtittle, redirectionLink} = this.props
+        const {type, tittle, subtittle, sub_subtittle, redirectionLink} = this.props        
+
         return(
             <div className={type}>
-                <div className='font-color-white'>
+                <div className='top-font'>
                     { tittle }
                 </div>
-                <div className='mid-font-color-white'>
+                <div className='mid-font'>
                     { subtittle }
                 </div>
-                <div className='mid-font-color-gray'>
+                <div className='lower-mid-font'>
                     { sub_subtittle }
                 </div>
-                <h3>
+                <div className='bottom-font'>
                     { redirectionLink }
-                </h3>
+                </div>
             </div>
-        )        
+        )     
     }
 }
 
