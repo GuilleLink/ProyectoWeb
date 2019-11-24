@@ -13,7 +13,7 @@ class Header extends Component{
             <div>
                 <div className='top-page'>
                     <div className='apple-logo'>
-                        <AppleLogo />
+                        <img src={AppleLogo}></img>                        
                     </div>
                     <div className='header-text'>
                         Mac

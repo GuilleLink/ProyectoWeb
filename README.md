@@ -33,12 +33,6 @@ Y la memoria:
 
 Luego de una dura pelea al fin me gustó trabajarlo.
 
-![Alt Text][AppleLogo]
-
-[AppleLogo]: https://github.com/GuilleLink/ProyectoWeb/AppleLogo.png "Apple"
-
-![Alt Text](https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif)
-
 Lo peor fue pensar que aprender a hacer un README iba a ser complicado pero no...
 
 ![Alt Text](https://media.giphy.com/media/SFcvg6hqQNksM/giphy.gif)
