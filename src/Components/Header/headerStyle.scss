@@ -6,16 +6,18 @@ $apple-font: '.SFNSDisplay-Regular', sans-serif;
     display: grid;
     font-size: 13px;
     font-weight: 0;
-    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10%; 
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10%; 
     width: 100%;
     background-color: 	#020202da;
     margin: 0px;
+    justify-content: center;
+    align-content: center;
 }
 
 .apple-logo{
     color: $apple-font-color;
     margin: auto;
-    //background-image: url(ac-globalnav-dist/images/globalnav/search/image_large.svg);
+    background-image: url("./AppleLogo.png");
 }
 
 .search-logo{

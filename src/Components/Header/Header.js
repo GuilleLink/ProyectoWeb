@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './headerStyle.scss'
+import AppleLogo from "./AppleLogo.png";
 
 class Header extends Component{
     constructor(props){
@@ -12,7 +13,7 @@ class Header extends Component{
             <div>
                 <div className='top-page'>
                     <div className='apple-logo'>
-                        
+                        <AppleLogo />
                     </div>
                     <div className='header-text'>
                         Mac

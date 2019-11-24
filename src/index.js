@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Header from "./Components/Header/Header";
 import FullCard from "./Components/FullCard/FullCard";
+import HalfCard from "./Components/HalfCard/HalfCard";
 import "./indexStyle.scss"
 
 const App = () => {
