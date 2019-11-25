@@ -12,13 +12,13 @@ class HalfCard extends Component{
         return(
             <div className={type}>
                 <img src={image} />
-                <div className='top-font'>
+                <div className='top-half-font'>
                     { tittle }
                 </div>  
-                <div className='mid-font'>
+                <div className='mid-half-font'>
                     { subtitle }
                 </div>              
-                <div className='bottom-font'>
+                <div className='bottom-half-font'>
                     { redirectionLink }
                 </div>
             </div>

@@ -1,6 +1,6 @@
 $apple-font: '.SFNSDisplay-Regular', sans-serif;
 
-.top-font{
+.top-half-font{
     position: relative;
     top: -100px;
     width: 100%;
@@ -14,7 +14,7 @@ $apple-font: '.SFNSDisplay-Regular', sans-serif;
     color: rgb(255, 255, 255);
 }
 
-.mid-font{
+.mid-half-font{
     position: relative;
     top: -150px;
     left: 10.9%;
@@ -25,7 +25,7 @@ $apple-font: '.SFNSDisplay-Regular', sans-serif;
     color: black;
 }
 
-.lower-mid-font{
+.lower-half-mid-font{
     position: relative;
     font-size: 17px;
     top: -15px;
@@ -33,7 +33,7 @@ $apple-font: '.SFNSDisplay-Regular', sans-serif;
     color: rgba(185, 185, 185, 0.884);
 }
 
-.bottom-font{
+.bottom-half-font{
     position: relative;
     font-size: 18px;
     top: -250px;
