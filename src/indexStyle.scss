@@ -16,3 +16,12 @@ body{
     justify-content: center;
     align-content: center;
 }
+
+.grided{
+    position: relative;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-column-gap: 5%;
+    justify-content: center;
+    align-content: center;
+}

@@ -1,23 +1,28 @@
 $apple-font: '.SFNSDisplay-Regular', sans-serif;
 
-
 .top-font{
     position: relative;
-    top: 40px;
+    top: -100px;
     width: 100%;
     height: 0px;
+    text-align: center;
     line-height: 1.8;
     font-size: 56px;
     font-family: $apple-font;
     font-weight: bold;
     order: 0;
+    color: rgb(255, 255, 255);
 }
 
 .mid-font{
     position: relative;
-    top: 5px;
+    top: -150px;
+    left: 10.9%;
+    text-align: center;
+    width: 78.2%;
     font-size: 26px;
     font-family: $apple-font;
+    color: black;
 }
 
 .lower-mid-font{
@@ -31,34 +36,32 @@ $apple-font: '.SFNSDisplay-Regular', sans-serif;
 .bottom-font{
     position: relative;
     font-size: 18px;
-    top: -25px;
+    top: -250px;
     font-family: $apple-font;
-    justify-content: center;
-    width: 100%;
-    order: 3;
+    text-align: center;
     color: rgb(44, 108, 247);
 }
 
 .first-top{
     position: relative;    
-    display: flex;
-    width: 45%;
+    display: grid;
+    width: 100%;
     height: 600px;
-    justify-content: flex-start;
+    justify-content: center;
     border: 5px;
     margin: 10px;
     background-image: url('./images/watches.jpg');
     background-position: center;
-    background-size: 100%;
+    background-size: 140% 100%;
     background-repeat: no-repeat;
     background-color: white;
 }
 
 .second-top{
     position: relative;
-    display: flex;
+    display: grid;
     flex-direction: column;
-    width: 45%;
+    width: 100%;
     height: 600px;
     justify-content: center;
     border: 5px;
@@ -69,14 +72,15 @@ $apple-font: '.SFNSDisplay-Regular', sans-serif;
     background-position-y: center;
     background-size: 100%;
     background-repeat: no-repeat;
+    background-color: white;
 }
 
 .third-top{
     position: relative;
-    display: flex;
-    width: 45%;
+    display: grid;
+    width: 100%;
     height: 600px;
-    justify-content: flex-end;
+    justify-content: center;
     border: 5px;
     padding: 0px;
     margin: 10px;
@@ -84,49 +88,51 @@ $apple-font: '.SFNSDisplay-Regular', sans-serif;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+    background-color: white;
 }
 
 .fourth-top{
     position: relative;
-    display: flex;
-    width: 45%;
+    display: grid;
+    width: 100%;
     height: 600px;
-    justify-content: flex-end;
+    justify-content: center;
     border: 5px;
     padding: 0px;
     margin: 10px;
     background-image: url('./images/airpods.jpg');
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 55%;
     background-color: black;
 }
 
 .fifth-top{
     position: relative;
-    display: flex;
-    width: 45%;
+    display: grid;
+    width: 100%;
     height: 600px;
-    justify-content: flex-end;
+    justify-content: center;
     border: 5px;
     padding: 0px;
     margin: 10px;
     background-image: url('./images/macBookPro.jpg');
-    background-position: center;
-    background-size: 100%;
+    background-position: bottom;
+    background-size: 67%;
     background-repeat: no-repeat;
 }
 
 .sixth-top{
     position: relative;
-    display: flex;
-    width: 45%;
+    display: grid;
+    width: 100%;
     height: 600px;
-    justify-content: flex-end;
+    justify-content: center;
     border: 5px;
     padding: 0px;
     margin: 10px;
     background-image: url('./images/ipads.jpg');
     background-position: center;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
