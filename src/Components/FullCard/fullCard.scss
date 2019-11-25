@@ -2,15 +2,19 @@ $apple-font: '.SFNSDisplay-Regular', sans-serif;
 
 .top-font{
     position: relative;
+    top: 40px;
+    width: 100%;
+    height: 0px;
     line-height: 1.8;
-    flex-wrap: nowrap;
     font-size: 56px;
     font-family: $apple-font;
     font-weight: bold;
+    order: 0;
 }
 
 .mid-font{
     position: relative;
+    top: 5px;
     font-size: 26px;
     font-family: $apple-font;
 }
@@ -18,21 +22,27 @@ $apple-font: '.SFNSDisplay-Regular', sans-serif;
 .lower-mid-font{
     position: relative;
     font-size: 17px;
+    top: -15px;
     font-family: $apple-font;
-    color: rgba(255, 255, 255, 0.473);
+    color: rgba(185, 185, 185, 0.884);
 }
 
 .bottom-font{
     position: relative;
     font-size: 18px;
+    top: -25px;
     font-family: $apple-font;
-    color: rgba(70, 119, 224, 0.753);
+    justify-content: center;
+    width: 100%;
+    order: 3;
+    color: rgb(44, 108, 247);
 }
 
 
 
 .top-full-card{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     grid-template-rows: 20% 10%; 
     width: 100%;
     height: 465px;
@@ -43,7 +53,7 @@ $apple-font: '.SFNSDisplay-Regular', sans-serif;
     background-image: url('./images/top-animated.jpg');
     background-repeat: no-repeat;
     background-position: center;
-
+    background-size: 65%;
 }
 
 .middle-full-card{
@@ -51,7 +61,7 @@ $apple-font: '.SFNSDisplay-Regular', sans-serif;
     display: grid;
     grid-template-rows: 20% 10% 8% 10%;   
     width: 100%;
-    height: 550px;
+    height: 650px;
     padding: 0px;
     border: 0px;
     justify-content: center;
@@ -60,12 +70,12 @@ $apple-font: '.SFNSDisplay-Regular', sans-serif;
     background-image: url('./images/mid-phone.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 70% 100%;
+    background-size: 100% 100%;
     
 }
 
 .bottom-full-card{
-    background-color: rgba(255, 255, 255, 0.89);
+    background-color: #f5f5f500;
     display: grid;
     grid-template-rows: 20% 10% 8% 10%; 
     width: 100%;
@@ -73,11 +83,11 @@ $apple-font: '.SFNSDisplay-Regular', sans-serif;
     padding: 0px;
     border: 0px;
     justify-content: center;
-    align-content: space-between;
     text-align: center;
     color: rgba(15, 15, 15, 0.952);
     background-image: url('./images/bottom-phones.jpg');
     background-size: cover;
     background-position: center;
-
+    background-size: 70% 100%;    
+    background-repeat: no-repeat; 
 }
