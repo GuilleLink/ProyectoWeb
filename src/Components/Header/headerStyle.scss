@@ -1,6 +1,10 @@
 $apple-font-color: 	lightgray;
 $apple-font: '.SFNSDisplay-Regular', sans-serif;
 
+.fa{
+    color: gray;
+}
+
 .top-page{
     position: relative;
     display: grid;
@@ -22,6 +26,7 @@ $apple-font: '.SFNSDisplay-Regular', sans-serif;
     position: fixed;
     backdrop-filter: blur(30px);
     width: 100%;
+    z-index: 100;
 }
 
 .apple-logo{
@@ -33,13 +38,12 @@ $apple-font: '.SFNSDisplay-Regular', sans-serif;
 .search-logo{
     margin: auto;
     justify-content: center;
-    background-image: url("./AppleLogo.png");
 }
 
-.shop-logo{
+.fa-shop{
     margin: auto;
     justify-content: center;
-    background-image: url("./AppleLogo.png");
+    color: gray;
 }
 
 .header-text{

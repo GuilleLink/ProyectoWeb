@@ -1,3 +1,44 @@
+$apple-font: '.SFNSDisplay-Regular', sans-serif;
+
+
+.top-font{
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: 0px;
+    line-height: 1.8;
+    font-size: 56px;
+    font-family: $apple-font;
+    font-weight: bold;
+    order: 0;
+}
+
+.mid-font{
+    position: relative;
+    top: 5px;
+    font-size: 26px;
+    font-family: $apple-font;
+}
+
+.lower-mid-font{
+    position: relative;
+    font-size: 17px;
+    top: -15px;
+    font-family: $apple-font;
+    color: rgba(185, 185, 185, 0.884);
+}
+
+.bottom-font{
+    position: relative;
+    font-size: 18px;
+    top: -25px;
+    font-family: $apple-font;
+    justify-content: center;
+    width: 100%;
+    order: 3;
+    color: rgb(44, 108, 247);
+}
+
 .first-top{
     position: relative;    
     display: flex;
@@ -10,10 +51,27 @@
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: white;
 }
 
 .second-top{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 600px;
+    justify-content: center;
+    border: 5px;
+    padding: 0px;
+    margin: 10px;
+    background-image: url('./images/appleCard.jpg');
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.third-top{
     position: relative;
     display: flex;
     width: 45%;
@@ -22,7 +80,53 @@
     border: 5px;
     padding: 0px;
     margin: 10px;
-    background-image: url('./images/appleCard.jpg');
+    background-image: url('./images/baby.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.fourth-top{
+    position: relative;
+    display: flex;
+    width: 45%;
+    height: 600px;
+    justify-content: flex-end;
+    border: 5px;
+    padding: 0px;
+    margin: 10px;
+    background-image: url('./images/airpods.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+
+.fifth-top{
+    position: relative;
+    display: flex;
+    width: 45%;
+    height: 600px;
+    justify-content: flex-end;
+    border: 5px;
+    padding: 0px;
+    margin: 10px;
+    background-image: url('./images/macBookPro.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.sixth-top{
+    position: relative;
+    display: flex;
+    width: 45%;
+    height: 600px;
+    justify-content: flex-end;
+    border: 5px;
+    padding: 0px;
+    margin: 10px;
+    background-image: url('./images/ipads.jpg');
     background-position: center;
     background-size: 100%;
 }

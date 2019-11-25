@@ -54,11 +54,13 @@ class Header extends Component{
                     <div className='header-text'>
                         Support
                     </div>
-                    <div className='search-logo'>
-                    <img src={require('./AppleLogo.png')} width='17px' alt='Search' />
+                    <div className='fa search-logo'>
+                        <img src={require('./search2.png')} width='22px' alt='Search' />
+                        
                     </div>
-                    <div className='shop-logo'>
-                    <img src={require('./AppleLogo.png')} width='17px' alt='Shop' />
+                    <div className='fa-shop'>
+                        <img src={require('./fa-shop.png')} width='28px' alt='Shop' />
+                        <a href='#' className='fa fa-shop'></a>
                     </div>                    
                 </div>
                 <div className='sub-header'>

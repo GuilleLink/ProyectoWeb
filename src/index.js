@@ -14,7 +14,11 @@ const App = () => {
             <FullCard type='middle-full-card' tittle='iPhone 11 Pro' subtittle='Pro cameras. Pro display. Pro performance.' sub_subtittle='From $24.95/mo. or $599 with trade-in.' redirectionLink='Learn more > Buy >'/>
             <FullCard type='bottom-full-card' tittle='iPhone 11' subtittle='Just the right amount of everything.' sub_subtittle='From $16.62/mo. or $399 with trade-in.' redirectionLink='Learn more > Buy >'/>
             <HalfCard type='first-top' top_image='watchSeries.png' tittle='' subtittle="With the new Always-on Retina display. <br>You've never seen a watch like this." redirectionLink='Learn more > Buy >'/>
-            <HalfCard type='second-top' top_image='cardIsHere' tittle='' subtittle="With the new Always-on Retina display. <br>You've never seen a watch like this." redirectionLink='Learn more > Buy >'/>            
+            <HalfCard type='second-top' top_image='cardIsHere' tittle='' subtittle="Get 3% Daily Cash on purchases from Apple using Apple Card." redirectionLink='Learn more > Apply now >'/>            
+            <HalfCard type='third-top' top_image='watchSeries.png' tittle='' subtittle="With the new Always-on Retina display. <br>You've never seen a watch like this." redirectionLink='Learn more > Buy >'/>
+            <HalfCard type='fourth-top' top_image='' tittle='' subtittle="With the new Always-on Retina display. <br>You've never seen a watch like this." redirectionLink='Learn more > Buy >'/>            
+            <HalfCard type='fifth-top' top_image='' tittle='' subtittle="With the new Always-on Retina display. <br>You've never seen a watch like this." redirectionLink='Learn more > Buy >'/>
+            <HalfCard type='sixth-top' top_image='new-ipad' tittle='' subtittle="With the new Always-on Retina display. <br>You've never seen a watch like this." redirectionLink='Learn more > Buy >'/>                        
             <Footer />
         </div>
     )

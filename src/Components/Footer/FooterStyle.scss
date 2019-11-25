@@ -1,11 +1,68 @@
 $apple-font: '.SFNSDisplay-Regular', sans-serif;
-$apple-font-color: lightgray;
+$apple-font-background: rgba(228, 228, 228, 0.39);
+$apple-font-color: rgb(124, 124, 124);
+$apple-font-color-list: rgba(70, 70, 70, 0.842);
+
+.list-title{
+    color: black;
+    font-family: $apple-font;
+    font-size: 13px;    
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.list-font{
+    color: $apple-font-color-list;
+    font-family: $apple-font;
+    font-size: 13px;    
+    margin-top: 10px;
+}
 
 .main-footer{
     position: relative;
     display: flex;
-    flex-direction: column row;
+    flex-direction: column;
     width: 100%;
-    height: 700px;
+    height: 520px;
+    background-color: $apple-font-background;
+}
 
+.principal-text{
+    position: relative;
+    display: flex;
+    flex-flow: nowrap;
+    width: 65%;
+    font-family: $apple-font;
+    color: $apple-font-color;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    font-size: 12.8px;
+    align-self: center;
+    justify-self: center;
+    top: 20px;
+}
+
+.second-area{
+    position: relative;
+    display: grid;
+    grid-template-columns: 20% 22% 20% 22% 20%;
+    width: 63%;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    align-self: center;
+    top: 35px;
+}
+
+.first-column{
+    position: relative;
+    width: 100%;
+    color: black;
+}
+
+.second-column{
+    position: relative;
+    width: 100%;
+    color: black;
 }
